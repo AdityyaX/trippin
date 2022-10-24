@@ -2,7 +2,7 @@
 var attempt=3
 function validate(){
     
-    let usrname= document.getElementById("user").value;
+    let usrname= document.getElementById("number").value;
     let pass= document.getElementById("password").value;
     if (usrname=="aditya" && pass=="1233" ){
         alert("LOGIN SUCCESSFUL");
